@@ -28,6 +28,5 @@ Please choose frameworks, databases, and ORM at its discretion.
 
 ## Useful links:
 
-https://github.com/localstack/localstack
-https://aws.amazon.com/sqs/faqs/
-https://aws.amazon.com/ses/faqs/
+- https://github.com/localstack/localstack
+- https://aws.amazon.com/sqs/faqs/
