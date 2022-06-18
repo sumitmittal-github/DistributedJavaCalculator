@@ -24,8 +24,3 @@ services:
     ports:
       - 8082:8082
     restart: on-failure
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://docker-mysql-db:3306/calculatordb?useSSL=false&allowPublicKeyRetrieval=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=password
-      - SPRING_DATASOURCE_PLATFORM=org.hibernate.dialect.MySQL5Dialect
